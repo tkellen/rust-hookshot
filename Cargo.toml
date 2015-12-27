@@ -1,5 +1,5 @@
 [package]
-name = "template"
+name = "hookshot"
 version = "0.1.0"
 authors = ["Tyler Kellen <tyler@sleekcode.net>"]
 
@@ -7,8 +7,10 @@ authors = ["Tyler Kellen <tyler@sleekcode.net>"]
 getopts = "0.2.14"
 handlebars = "0.12.0"
 rustc-serialize = "0.3.16"
+toml = "0.1.25"
+url = "0.5.2"
 
 [[bin]]
 doc = false
-name = "template"
+name = "hookshot"
 path = "src/main.rs"

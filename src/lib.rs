@@ -1,6 +1,6 @@
-extern crate getopts;
-extern crate handlebars;
+extern crate toml;
+extern crate url;
 extern crate rustc_serialize;
+extern crate handlebars;
 
-pub mod cli;
-pub mod template;
+pub mod config;

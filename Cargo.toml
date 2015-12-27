@@ -1,0 +1,14 @@
+[package]
+name = "template"
+version = "0.1.0"
+authors = ["Tyler Kellen <tyler@sleekcode.net>"]
+
+[dependencies]
+getopts = "0.2.14"
+handlebars = "0.12.0"
+rustc-serialize = "0.3.16"
+
+[[bin]]
+doc = false
+name = "template"
+path = "src/main.rs"
